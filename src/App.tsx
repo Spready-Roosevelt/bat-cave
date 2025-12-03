@@ -69,7 +69,7 @@ function App() {
 
     if (angle < 0) angle = 360 + angle;
     
-    const roundToNearest15 = Math.round(angle / 15) * 15;
+    const roundToNearest15 = Math.round(angle / 90) * 90;
     roundToNearest15  === 360 ? 0 : roundToNearest15;
     setDirection(roundToNearest15);
   };
